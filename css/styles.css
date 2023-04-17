@@ -29,3 +29,34 @@ body {
     background-color: #d7edab; /* replace with desired color */
   }
   
+  .drop-cap::first-letter {
+    color: #ffa200;
+    font-family: Georgia, serif;
+    font-size: 3em;
+    line-height: 1;
+    padding-top: 0.1em;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    float: left;
+  }
+  
+  body {
+    height: 100%;
+    /* padding-bottom: 120px; assuming footer height is 60px */
+  }
+  
+  footer {
+    height: 120px;
+  }
+  
+.uchicago-img {
+    width: 200px;
+    height: auto;
+  }
+
+.wordmark-wrapper {
+    padding: 10px;
+  }
+  
+
+

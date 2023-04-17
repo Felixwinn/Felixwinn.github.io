@@ -26,37 +26,47 @@
   </head>
 
   <body onload="addElements()">
-    <ul class="nav navbar nav-tabs">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">Queer Media Archive</a>
-      </li>
-      <li class="nav-item">
-        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html" class="nav-link">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="map.html" aria-current="page">Location</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="wiki.html" aria-current="page">Wiki Search</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Digital Chalkboard</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="week01dB.html">Week 01</a>
-          <a class="dropdown-item" href="week02dB.html">Week 02</a>
-          <a class="dropdown-item" href="#">Week 03</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="tp.html">Technical Presentation</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a href="contact.html" class="nav-link" >Contact</a>
-      </li>
-    </ul>
-  
+    <nav class="nav navbar navbar-expand-md nav-tabs navbar-light">
+      <div class="container-fluid">
+        <li class="nav-item">
+          <a href="#" class="navbar-brand" aria-current="page">Queer Media Archive</a>
+        </li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="map.html" aria-current="page">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wiki.html" aria-current="page">Wiki Search</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Digital Chalkboard</a>
+            <ul class="dropdown-menu">
+              <a class="dropdown-item" href="week01dB.html">Week 01</a>
+              <a class="dropdown-item" href="week02dB.html">Week 02</a>
+              <a class="dropdown-item" href="#">Week 03</a>
+              <ul class="dropdown-divider"></ul>
+              <a class="dropdown-item" href="tp.html">Technical Presentation</a>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" >Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="rstiTexts.html" class="nav-link" >OCHRE</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
 
   <div class="container">
     <h1>Hello!</h1>
@@ -96,6 +106,12 @@
         <td>2018</td>
         <td>China</td>
       </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Heartstopper</td>
+        <td>2022</td>
+        <td>United Kingdom</td>
+      </tr>
     </tbody>
   </table>
 
@@ -112,22 +128,76 @@
     </div>
   </div> -->
 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <h3>Young Royals</h3>
+        <p class="drop-cap">Young Royals is a Swedish teen drama romance streaming television series on Netflix. Set at the fictional elite boarding school Hillerska, the plot primarily follows the fictional Prince Wilhelm of Sweden (Edvin Ryding), his romance with fellow male student Simon Eriksson (Omar Rudberg), and the drama which results.</p>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h3>Love, Simon</h3>
+        <p class="drop-cap">Love, Simon is a 2018 American romantic comedy-drama film. It centers on Simon Spier, a closeted gay high school boy who struggles to balance his friends, his family, and the blackmailer threatening to out him to the entire school, while simultaneously attempting to discover the identity of the anonymous classmate with whom he has fallen in love online. </p>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h3>Dear Ex</h3>
+        <p class="drop-cap">Dear Ex (Chinese: 誰先愛上他的) is a 2018 Taiwanese comedy-drama film. The film received generally positive reviews from critics and was selected as the Taiwanese entry for the Best International Feature Film at the 92nd Academy Awards, but it was not nominated. </p>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h3>Heartstopper</h3>
+        <p class="drop-cap">Heartstopper is a British coming-of-age romantic comedy-drama television series on Netflix. The series primarily tells the story of Charlie Spring (Joe Locke), a gay schoolboy who falls in love with classmate Nick Nelson (Kit Connor), whom he sits next to in his new form.</p>
+      </div>
+    </div>
+  </div>
+  
+
+    <div class="row">
+        <div class="col-md mb-3">
+          <img src="Images/YR.jpeg" class="img-fluid" alt="Image 1">
+        </div>
+        <div class="col-md mb-3">
+          <img src="Images/LS.jpeg" class="img-fluid" alt="Image 2">
+        </div>
+        <div class="col-md mb-3">
+          <img src="Images/Dear.jpeg" class="img-fluid" alt="Image 3">
+        </div>
+        <div class="col-md mb-3">
+          <img src="Images/HS.jpeg" class="img-fluid" alt="Image 4">
+        </div>
+      </div>
+
+
   <div class="card-body">
     <h5 id="programCard" class="card-title">Sponsored By Digital Studies</h5>
     <p class="card-text">The University of Chicago's program in Digital Studies of Language, Culture, and History provides a one-year Master of Arts curriculum intended for full-time students who have a bachelor's degree in the humanities or in a related discipline such as history, antropology, and linguistics.</p>
   </div>
 
-  <div class="container mt-5"> <!-- use container because make the button not to the too left of the page -->
-    <div class="h3">Support us!</div>
+  <div class="h3 container">Explore more features!</div>
+  <div class="container mt-5 mb-4 d-flex"> <!-- use container because make the button not to the too left of the page -->
     <button type="button" class="btn btn-primary" onclick="displayCurrentMinute()">Get Current Minute</button>
     <div id="minute"></div>
     <button type="button" id="hide-button" class="btn btn-primary" onclick="hideElement()">Hide element</button>
     <div id="element-to-hide">I will disappear!</div>
     <button type="button" class="btn btn-primary" onclick="howdy()">Greetings</button>
     <button type="button" class="btn btn-primary" onclick="changeTitle()">Change Title</button>
+    <button type="button" class="btn btn-primary" onclick="showAlert()">Alert</button>
     <!-- <button type="button" class="btn btn-primary" onclick="scopeValues()">Share</button> -->
     <!-- <button type="button" class="btn btn-primary" onclick="evalNumber()">Evaluate Number</button> -->
+    <button type="button" id="parse-button" class="btn btn-primary btn-lg" onclick="sortedArray()">Sort Array</button>
   </div>
+
+
+  <footer class="bg-dark text-light d-none d-md-block">
+    <div class="container text-center">
+      <div class="grid-wrapper">
+        <div class="region region-footer-first">
+          <div id="block-block-10" class="block block-block first last odd">
+    <div class="wordmark-wrapper">
+      <a href="http://www.uchicago.edu" title="The University of Chicago" alt="The University of Chicago"><img src="Images/uchicago.png" class="uchicago-img"></a>
+    </div>
+    <p><strong>Digital Studies of Language, Culture, and History</strong>
+    <br>1115 E. 58th Street <br>
+      Chicago IL 60637</p>
+  </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

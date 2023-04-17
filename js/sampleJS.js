@@ -113,3 +113,37 @@ function hideElement() {
 
 const hideButton = document.getElementById('hide-button');
 hideButton.addEventListener('click', hideElement);
+
+// Write a function to pop up a simple alert message.
+function showAlert() {
+    alert("This is an alert message!");
+  }
+
+
+// The parameter will be an array;
+// The parseArray() function that outputs a sorted array based on input
+// function parseArray(arr) {
+//     // check if input is an array
+//     if (!Array.isArray(arr)) {
+//       return "Input is not an array!";
+//     }
+  
+//     // sort the array
+//     arr.sort();
+  
+//     // return the sorted array
+//     return arr;
+//   }
+  
+  
+function parseArray() {
+    let inputStr = prompt("Enter an array separated by comma:");
+    let arr = inputStr.split(",").map(str => str.trim());
+    arr.sort();
+    return arr;
+}
+
+function sortedArray() {
+    let sortedArray = parseArray();
+    alert("Sorted array: " + sortedArray.join(", "));
+}
