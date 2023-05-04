@@ -18,3 +18,13 @@ h1 {
   body {
     padding-bottom: 50px; /* change this value to match the height of your offcanvas */
   }
+
+
+
+  .propertyValue {
+    font-weight: bold;
+  }
+  /* Oxygen
+
+  
+  
