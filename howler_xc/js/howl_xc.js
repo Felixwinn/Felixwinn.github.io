@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     animals[`animal${i + 1}`] = animalTitles[i].textContent.trim();
   }
 
+  // Alternative way to do it
+  // animalObject[element.nextElementSibling.id] = element.nextElementSibling.alt;
+
+
   // Use the Object to create event listeners for <img> elements that launch the provided howler script.
     // Write a single 'for...in' statement to add listeners to all the <img> elements.
     // .addEventListener('click', () => {CODE GOES HERE}
@@ -37,6 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
     img.addEventListener('click', () => {
       playAnimal(animalSprites[img.parentElement.querySelector('.animalTitle').textContent.trim()]);
     });
+
+    //Alternative: for.. in..
+  //   for (const e in animalObject) {
+  //     $(`#${e}`).on('click', function(){
+  //   playAnimal(animalObject[e]);
+  //   })
+  // }
+  //$(`#${e}`) means select animal01, animal02, 03,04 (class)
+
 
   // Leverage the Object to add mouseover styling to the <img> elements.
     // You'll need to add listeners to the <img> elements.

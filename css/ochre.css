@@ -1,0 +1,30 @@
+h1 {
+    color:maroon;
+}
+
+.Heading {
+    font-weight: bold;
+  }
+
+.propertyValue {
+    font-weight: bold;
+  }
+
+  #map {
+    height: 500px; /* Set the height of the map to 500 pixels */
+    margin-bottom: 80px;
+  }
+
+  #spatialUnitDiv {
+    margin-bottom: 10px;
+  }
+
+  .citationheading{
+    color: grey;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+
+  .Availability{
+    margin-bottom: 10px;
+  }

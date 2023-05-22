@@ -1,0 +1,17 @@
+h1 {color: maroon;}
+
+h3.subtitle {color: dodgerblue;}
+
+p#p3-try1 {color: blue;}
+p#p3-try1 {color: red;}
+
+.p3-ul {color: blueviolet;}
+.None {color: black;}
+
+#tab-1-cap {color: maroon; font-weight: 900; font-size: large;}
+
+p#p4-1 {font-weight: 100;}
+p#p4-2 {font-weight: 900;}
+
+p#p4-3 {font-family: 'Courier New', Courier, monospace;}
+p#p4-4 {font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: medium;}

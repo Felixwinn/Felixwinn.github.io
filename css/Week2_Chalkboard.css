@@ -1,0 +1,54 @@
+h1 {
+    color:maroon;
+    font-family: Papyrus, fantasy;
+}
+
+#second {
+    color:darkmagenta;
+    font-family: Monaco, monospace;
+}
+
+/* The first line of every <p> element. */
+p::first-letter {
+    color: blue;
+    text-transform: uppercase;
+  }
+  
+/* Cascade: the one that is defined last is the one that will be used
+inheritance: some CSS property values set on parent elements are inherited by their child elements */
+
+
+/* spacing */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+}
+
+th {
+    background-color: rgb(192, 47, 47);
+}
+
+ul {
+    list-style-type:circle;
+}
+
+/* table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0.5rem;
+    text-align: left;
+    letter-spacing: 0.05rem;
+    border: 3px solid purple;
+  }
+  
+
